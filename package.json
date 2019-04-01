@@ -1,0 +1,31 @@
+{
+  "name": "blockchain-test",
+  "version": "1.0.0",
+  "description": "An example of blockchain using node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "mocha --require @babel/register ./test/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farhadSagar/blockchain-test.git"
+  },
+  "author": "Farhad Sagar ['farhad.cfc@gmail.com']",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farhadSagar/blockchain-test/issues"
+  },
+  "homepage": "https://github.com/farhadSagar/blockchain-test#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "mocha": "^6.0.2",
+    "nodemon": "^1.18.10"
+  }
+}
